@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+}
+table{
+    width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color:black
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 8px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+
+header{
+    display: flex;
+    height: 500px;
+    background-image: url(../imagenes/banner5.jpeg);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+    padding: 15px;
+
+    
+
+}
+
+.logo{
+    display: flex;
+
+
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 5px;
+}
+
+.btitulo1{
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafo{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}

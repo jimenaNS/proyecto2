@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+}
+table{
+    width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color:black
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 8px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+
+header{
+    display: flex;
+    height: 500px;
+    background-image: url(../imagenes/banner1.jpg);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+    padding: 15px;
+
+    
+
+}
+
+.logo{
+    display: flex;
+
+
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 5px;
+}
+
+.btitulo1{
+    color: white;
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.inicio{
+    display: flex;
+    font-size: 28px;
+}
+
+.inicio1{
+    padding-left: 270px;
+}
+
+.inicio2{
+    font-size: 25px;
+}
+
